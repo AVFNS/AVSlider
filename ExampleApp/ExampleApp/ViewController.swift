@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         $0.tintColor = .red
         $0.trackingMode = .absolute
         $0.progress = 0.7
+        $0.expansionMode = .onDrag
     }
 
     override func viewDidLoad() {
