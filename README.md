@@ -2,6 +2,8 @@
 
 `AVSlider`는 기존의 UISlider가 답답해서 UISlider를 상속 받지 않고 만들어진 커스텀 UISlider입니다.
 
+https://github.com/AVFNS/AVSlider/assets/102890390/648390fa-df18-44c9-9541-8193b2a19392
+
 ## **초기화**
 
 `AVSlider`를 초기화하기
