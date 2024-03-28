@@ -2,7 +2,8 @@
 
 `AVSlider`는 기존의 UISlider가 답답해서 UISlider를 상속 받지 않고 만들어진 커스텀 UISlider입니다.
 
-https://github.com/AVFNS/AVSlider/assets/102890390/648390fa-df18-44c9-9541-8193b2a19392
+https://github.com/AVFNS/AVSlider/assets/102890390/ace7900a-d8bc-4ff7-962a-ab0d019f356c
+
 
 ## **초기화**
 
@@ -63,3 +64,21 @@ slider.trackingMode = .absolute
 slider.expansionMode = .onDrag
 
 ```
+
+### **라벨 위치 추가**
+
+`AVSlider`의 라벨 위치를 설정합니다. `top`과 `bottom`이 있습니다.
+
+```swift
+slider.setValueLabelPosition(.top)
+```
+
+## expansionMode의 관하여
+
+`AVSlider`에서는 `onTouch`와 `onDrag`를 제공합니다.
+`onTouch`는 터치를 해서 Slider를 제어할 수 있고 `onDrag`는 무조건 드레그를 해서만 사용할 수 있습니다.
+
+```swift
+$0.expansionMode = .onDrag
+```
+
