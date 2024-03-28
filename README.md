@@ -10,7 +10,7 @@
 let slider = AVSlider(frame: CGRect(x: 0, y: 0, width: 330, height: 12))
 ```
 
-이 코드는 너비가 330 포인트이고 높이가 12 포인트인 **`AVSlider`**를 생성합니다. 이후 필요에 따라 frame을 조정할 수 있습니다.
+이 코드는 너비가 330 포인트이고 높이가 12 포인트인 `AVSlider`를 생성합니다. 이후 필요에 따라 frame을 조정할 수 있습니다.
 
 ## **설정**
 
