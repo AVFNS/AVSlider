@@ -12,6 +12,10 @@ open class AVSlider: UIControl, UIGestureRecognizerDelegate {
     public var valueLabel: UILabel?
     private var showValueLabel: Bool
     private var valueLabelPosition: ValueLabelPosition = .top
+    
+    
+    public var trackingMode: TrackingMode = .offset
+    public var expansionMode: ExpansionMode = .onTouch
 
     open override var intrinsicContentSize: CGSize {
         return CGSize(width: 330, height: 12)
@@ -40,9 +44,6 @@ open class AVSlider: UIControl, UIGestureRecognizerDelegate {
             backgroundView.backgroundColor = newValue
         }
     }
-
-    var trackingMode: TrackingMode = .offset
-    var expansionMode: ExpansionMode = .onTouch
 
     public init(frame: CGRect, showValueLabel: Bool? = false) {
         self.showValueLabel = showValueLabel ?? false
@@ -192,22 +193,22 @@ open class AVSlider: UIControl, UIGestureRecognizerDelegate {
     }
 }
 
-extension AVSlider {
+public extension AVSlider {
     enum TrackingMode {
         case offset
         case absolute
     }
 }
 
-extension AVSlider {
+public extension AVSlider {
     enum ExpansionMode {
         case onTouch
         case onDrag
     }
 }
 
-extension AVSlider {
-    public enum ValueLabelPosition {
+public extension AVSlider {
+    enum ValueLabelPosition {
         case top
         case bottom
     }
