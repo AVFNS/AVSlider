@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AVFNS/AVSlider",
       "state" : {
-        "revision" : "32cc2b094c916be647bc46b88f6939a520f8b2d2",
-        "version" : "0.0.2"
+        "revision" : "dee256d862e653847c0336fbcb43dff9c80423f9",
+        "version" : "0.0.6"
       }
     },
     {
