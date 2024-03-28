@@ -4,6 +4,9 @@
 
 https://github.com/AVFNS/AVSlider/assets/102890390/648390fa-df18-44c9-9541-8193b2a19392
 
+https://github.com/AVFNS/AVSlider/assets/102890390/ace7900a-d8bc-4ff7-962a-ab0d019f356c
+
+
 ## **초기화**
 
 `AVSlider`를 초기화하기
