@@ -64,3 +64,21 @@ slider.trackingMode = .absolute
 slider.expansionMode = .onDrag
 
 ```
+
+### **라벨 위치 추가**
+
+`AVSlider`의 라벨 위치를 설정합니다. `top`과 `bottom`이 있습니다.
+
+```swift
+slider.setValueLabelPosition(.top)
+```
+
+## expansionMode의 관하여
+
+`AVSlider`에서는 `onTouch`와 `onDrag`를 제공합니다.
+`onTouch`는 터치를 해서 Slider를 제어할 수 있고 `onDrag`는 무조건 드레그를 해서만 사용할 수 있습니다.
+
+```swift
+$0.expansionMode = .onDrag
+```
+
