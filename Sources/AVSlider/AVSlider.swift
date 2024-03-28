@@ -18,7 +18,7 @@ open class AVSlider: UIControl, UIGestureRecognizerDelegate {
         return CGSize(width: 330, height: 12)
     }
     
-    var progress: Double {
+    public var progress: Double {
         get {
             return _progress
         } set {
