@@ -1,6 +1,6 @@
 # **AVSlider 사용 방법**
 
-`AVSlider`는 기존의 UISlider가 답답해서 UISlider를 상속 받지 않고 만들어진 커스텀 UISlider입니다.
+`AVSlider`는애플 스타일의 커스텀 UISlider를 UISlider를 상속받지 않고 개발한 것입니다.
 
 https://github.com/AVFNS/AVSlider/assets/102890390/ace7900a-d8bc-4ff7-962a-ab0d019f356c
 
